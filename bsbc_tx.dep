@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4177048415</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\sensor\bsbc\main_bsc_tx.c</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\printf.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\ioboard.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bs_tx.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\main_bsc_tx.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\ANTInterface.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\serial.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bc_tx.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ioboard.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bc_tx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\serial.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\printf.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\printf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ANTInterface.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ioboard.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main_bsc_tx.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\bc_tx.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Exe\bsbc_tx.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\System.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main_bsc_tx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ANTInterface.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\serial.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\System.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\bs_tx.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\bs_tx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\System.pbi</file>
+      <file>$PROJ_DIR$\base\ANTInterface.h</file>
+      <file>$PROJ_DIR$\base\timer.c</file>
+      <file>$PROJ_DIR$\sensor\bsbc\bc_tx.c</file>
+      <file>$PROJ_DIR$\base\ANTInterface.c</file>
+      <file>$PROJ_DIR$\base\System.h</file>
+      <file>$PROJ_DIR$\base\types.h</file>
+      <file>$PROJ_DIR$\sensor\bsbc\bc_tx.h</file>
+      <file>$PROJ_DIR$\base\ioboard.h</file>
+      <file>$PROJ_DIR$\base\antdefines.h</file>
+      <file>$PROJ_DIR$\base\serial.h</file>
+      <file>$PROJ_DIR$\sensor\bsbc\bs_tx.c</file>
+      <file>$PROJ_DIR$\sensor\bsbc\bs_tx.h</file>
+      <file>$PROJ_DIR$\base\antmessage.h</file>
+      <file>$PROJ_DIR$\base\ioboard.c</file>
+      <file>$PROJ_DIR$\base\antplus.h</file>
+      <file>$PROJ_DIR$\base\printf.c</file>
+      <file>$PROJ_DIR$\base\Config.h</file>
+      <file>$PROJ_DIR$\base\serial.c</file>
+      <file>$PROJ_DIR$\base\System.c</file>
+      <file>$PROJ_DIR$\base\printf.h</file>
+      <file>$PROJ_DIR$\base\timer.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\sensor\bsbc\main_bsc_tx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 56 49 45 48 37 57 44 43 51 12 53 9 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 42 37 49 45 57 56 44 48 53 9 12 28 51 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 9 41 45 44 49 42 12 37 57 53</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 42 37 49 45 57 41 53 9 12 28 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\bsbc_tx.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 30 24 33 22 34 23 17 16 32 15 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\base\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 57 53 9 42 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 42 53 9 12 28 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sensor\bsbc\bc_tx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 44 42 45 51 37 43 57 53 9 12 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 42 49 45 37 44 43 53 9 12 28 51 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\base\ANTInterface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53 42 37 49 46 45 57 44 9 12 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 42 46 49 45 37 57 44 53 9 12 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sensor\bsbc\bs_tx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 42 45 51 49 37 48 57 53 9 12 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 42 49 45 37 44 48 53 9 12 28 51 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\base\ioboard.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 53 42 9 28 44</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 44 42 53 9 12 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\base\printf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 42 12 53 28 46</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 46 42 53 9 12 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\base\serial.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 57 53 49 42 9 46 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 46 42 53 9 12 28 57 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\base\System.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 12 28 53</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 53 9 12 28</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\sensor\bsbc\main_bsc_tx.c</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Release\Obj\bs_tx.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\timer.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\bc_tx.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\ANTInterface.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main_bsc_tx.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\System.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\printf.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\bsbc_tx.pbd</file>
+      <file>$PROJ_DIR$\Release\Obj\bs_tx.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\serial.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\System.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main_bsc_tx.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\System.r43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\bc_tx.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main_bsc_tx.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\ioboard.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\timer.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\ioboard.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\serial.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\printf.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bc_tx.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\ANTInterface.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\ANTInterface.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\ioboard.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\printf.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\bsbc_tx.txt</file>
+      <file>$PROJ_DIR$\Release\Obj\serial.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bs_tx.__cstat.et</file>
+      <file>$PROJ_DIR$\base\ANTInterface.h</file>
+      <file>$PROJ_DIR$\base\timer.c</file>
+      <file>$PROJ_DIR$\base\version.h</file>
+      <file>$PROJ_DIR$\sensor\bsbc\bc_tx.c</file>
+      <file>$PROJ_DIR$\base\ANTInterface.c</file>
+      <file>$PROJ_DIR$\base\common_pages.h</file>
+      <file>$PROJ_DIR$\base\System.h</file>
+      <file>$PROJ_DIR$\base\types.h</file>
+      <file>$PROJ_DIR$\sensor\bsbc\bc_tx.h</file>
+      <file>$PROJ_DIR$\base\ioboard.h</file>
+      <file>$PROJ_DIR$\base\antdefines.h</file>
+      <file>$PROJ_DIR$\base\serial.h</file>
+      <file>$PROJ_DIR$\sensor\bsbc\bs_tx.c</file>
+      <file>$PROJ_DIR$\sensor\bsbc\bs_tx.h</file>
+      <file>$PROJ_DIR$\base\antmessage.h</file>
+      <file>$PROJ_DIR$\base\ioboard.c</file>
+      <file>$PROJ_DIR$\base\antplus.h</file>
+      <file>$PROJ_DIR$\base\printf.c</file>
+      <file>$PROJ_DIR$\base\Config.h</file>
+      <file>$PROJ_DIR$\base\serial.c</file>
+      <file>$PROJ_DIR$\base\System.c</file>
+      <file>$PROJ_DIR$\base\printf.h</file>
+      <file>$PROJ_DIR$\base\timer.h</file>
+      <file>$PROJ_DIR$\Release\Exe\bsbc_tx.ulp</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\sensor\bsbc\main_bsc_tx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 59 52 48 51 38 60 47 46 54 27 56 17 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 45 38 52 48 60 59 47 51 56 17 27 28 54 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 17 44 48 47 52 45 27 38 60 56</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 45 38 52 48 60 44 56 17 27 28 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\bsbc_tx.txt</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 32 5 11 21 18 20 9 25 16 4 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\base\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 60 56 17 45 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 45 56 17 27 28 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sensor\bsbc\bc_tx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 47 45 48 54 38 46 60 56 17 27 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 45 52 48 38 47 46 56 17 27 28 54 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\base\ANTInterface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 45 38 52 49 48 60 47 17 27 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 45 49 52 48 38 60 47 56 17 27 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sensor\bsbc\bs_tx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 45 48 54 52 38 51 60 56 17 27 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 45 52 48 38 47 51 56 17 27 28 54 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\base\ioboard.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 56 45 17 28 47</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 47 45 56 17 27 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\base\printf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 45 27 56 28 49</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 49 45 56 17 27 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\base\serial.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 60 56 52 45 17 49 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 49 45 56 17 27 28 60 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\base\System.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 27 28 56</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 56 17 27 28</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
